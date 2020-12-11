@@ -1,0 +1,41 @@
+body {
+    font-family: 'lato';
+}
+
+.image {
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: linear-gradient(0deg, #17c0b8 0%, #ee0979 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.btn-primary {
+    background-color: #ee0979;
+    border-color: #ee0979;
+}
+
+.btn-primary:hover {
+    background-color: rgba(247, 120, 209, 0.918);
+}
+
+
+.btn-xl {
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+section .img-fluid {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.bg-black {
+    background-color: black;
+}
